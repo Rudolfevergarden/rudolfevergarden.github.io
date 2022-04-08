@@ -1,0 +1,147 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.content {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.navbar-brand {
+  font-family: HelveticaNowDisplay, sans-serif;
+  font-weight: 300;
+}
+.about {
+  padding: 0.75%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.about h1 {
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.space {
+  padding: 4%;
+}
+
+/*welcome  text*/
+.welcome_text {
+  padding: 1.5%;
+  font-family: HelveticaNowDisplay, sans-serif;
+  font-size: 9vw;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  color: #e2e2e2;
+
+  text-align: center;
+}
+.welcome_text:hover {
+  font-family: HelveticaNowDisplay, sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 9vw;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  -webkit-text-stroke-width: 6rem;
+  -webkit-text-stroke-color: rgba(100, 224, 255, 0.055);
+  transition: font-size 0.2s ease, color 1s;
+}
+
+/* about */
+.about {
+  font-family: Helvetica, sans-serif;
+  font-size: 7rem;
+  font-weight: 700;
+  color: #151515;
+  font-style: italic;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: rgb(112, 111, 111);
+  transition: font-size 0.2s ease, color 1s;
+  text-align: center;
+}
+.about:hover {
+  font-family: Helvetica, sans-serif;
+  color: rgb(129, 255, 255);
+  font-size: 7rem;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.text {
+  color: white;
+  text-align: justify;
+  font-size: large;
+}
+
+#abouttext {
+  padding-left: 4vw;
+  text-align: justify;
+}
+
+/* grad bar*/
+.grad-bar {
+  width: 100%;
+  height: 1.5px;
+  background: linear-gradient(
+    -45deg,
+    #fd7637,
+    #dadada,
+    #46cafa,
+    #dadada,
+    #23d5ab
+  );
+  background-size: 400% 400%;
+  -webkit-animation: gradbar 15s ease infinite;
+  -moz-animation: gradbar 15s ease infinite;
+  animation: gradbar 15s ease infinite;
+}
+
+/* KEYFRAME ANIMATIONS */
+
+@-webkit-keyframes gradbar {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-moz-keyframes gradbar {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradbar {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.footer-text {
+  font-family: Helvetica, sans-serif;
+  font-size: 100px;
+  font-weight: 300;
+  color: rgb(255, 236, 214);
+}
+
+.foot-text {
+  color: white;
+}
+
+/* glitch*/
